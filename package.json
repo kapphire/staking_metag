@@ -6,8 +6,7 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
       "compile": "npx hardhat compile",
-      "deploy-nft": "npx hardhat run scripts/collectible-deploy.js --network fuji",
-      "deploy-marketplace": "npx hardhat run scripts/deploy.js --network fuji"
+      "deploy": "npx hardhat run scripts/deploy.js --network mainnet"
     },
     "keywords": [],
     "author": "",
