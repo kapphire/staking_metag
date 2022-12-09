@@ -1,0 +1,30 @@
+{
+    "name": "metagamz_staking",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "compile": "npx hardhat compile",
+      "deploy-nft": "npx hardhat run scripts/collectible-deploy.js --network fuji",
+      "deploy-marketplace": "npx hardhat run scripts/deploy.js --network fuji"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@nomiclabs/hardhat-ethers": "^2.0.5",
+      "@nomiclabs/hardhat-waffle": "^2.0.3",
+      "@openzeppelin/contracts": "^4.4.2",
+      "@openzeppelin/contracts-upgradeable": "^4.5.2",
+      "@openzeppelin/hardhat-upgrades": "^1.16.1",
+      "@openzeppelin/test-helpers": "^0.5.15",
+      "dotenv": "^10.0.0",
+      "ethers": "^5.6.1",
+      "hardhat": "^2.9.2",
+      "hardhat-contract-sizer": "^2.5.1",
+      "hardhat-gas-reporter": "1.0.8",
+      "solidity-coverage": "^0.7.19"
+    }
+  }
+  
