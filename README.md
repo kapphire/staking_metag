@@ -32,3 +32,7 @@ This README would normally document whatever steps are necessary to get your app
 ### Check contract size
 
 * yarn hardhat size-contracts
+
+
+### Check contract address
+* MetagStakepool address: https://snowtrace.io/address/0x9458011D44Ec235a0bF4C2ee135E54B1b132625f

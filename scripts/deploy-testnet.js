@@ -8,7 +8,7 @@ async function main() {
 
   console.log("Account balance:", (await deployer.getBalance()).toString());
 
-  const metagAddress = process.env.METAG_ADDRESS
+  const metagAddress = process.env.TMETAG_ADDRESS
   const MetagStakepool = await ethers.getContractFactory("MetagStakepool");
   const contract = await MetagStakepool.deploy(metagAddress, metagAddress);
 

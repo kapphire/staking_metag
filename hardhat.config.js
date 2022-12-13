@@ -16,6 +16,14 @@ module.exports = {
       accounts:
         process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
     },
+    fuji: {
+      url: process.env.AVALANCHE_FUJI_URL || "",
+      gas: 2100000,
+      gasPrice: 225000000000,
+      chainId: 43113,
+      accounts:
+        process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
+    },
   },
   paths: {
     sources: "./contracts",
